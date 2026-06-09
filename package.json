@@ -1,0 +1,31 @@
+{
+  "name": "learn-openai-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "responses:01": "node responses-api/01-basic-response.mjs",
+    "responses:02": "node responses-api/02-instructions-and-roles.mjs",
+    "responses:03": "node responses-api/03-output-shape.mjs",
+    "responses:04": "node responses-api/04-conversation-state.mjs",
+    "responses:05": "node responses-api/05-structured-output.mjs",
+    "responses:06": "node responses-api/06-streaming-text.mjs",
+    "responses:07": "node responses-api/07-function-tool.mjs",
+    "test": "for f in responses-api/*.mjs; do node --check \"$f\"; done"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.5.2",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "openai": "^6.42.0"
+  }
+}
