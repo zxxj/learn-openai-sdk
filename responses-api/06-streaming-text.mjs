@@ -1,4 +1,4 @@
-import { client, model } from "./client.mjs";
+import { client, model } from "../client.mjs";
 
 // 练习 06：流式输出
 //
@@ -10,7 +10,7 @@ import { client, model } from "./client.mjs";
 
 // TODO: 创建 stream。
 const stream = await client.responses.create({
-  model: model,
+  model,
   instructions: "你是一个二次元美少女,话特别多.",
   input: "介绍一下你自己",
   stream: true,

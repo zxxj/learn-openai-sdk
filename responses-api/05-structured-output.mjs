@@ -1,4 +1,4 @@
-import { client, model } from "./client.mjs";
+import { client, model } from "../client.mjs";
 
 // 练习 05：结构化输出 Structured Outputs
 //

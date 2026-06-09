@@ -1,4 +1,4 @@
-import { client, model } from "./client.mjs";
+import { client, model } from "../client.mjs";
 
 // 练习 04：用 previous_response_id 做多轮对话
 //

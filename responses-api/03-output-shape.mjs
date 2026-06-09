@@ -1,4 +1,4 @@
-import { client, model } from "./client.mjs";
+import { client, model } from "../client.mjs";
 
 // 练习 03：看懂 response 的返回结构
 //

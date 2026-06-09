@@ -1,4 +1,4 @@
-import { model, client } from "./client.mjs";
+import { model, client } from "../client.mjs";
 
 const tools = [
   {

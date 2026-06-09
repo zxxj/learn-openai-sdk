@@ -1,4 +1,4 @@
-import { client, model } from "./client.mjs";
+import { client, model } from "../client.mjs";
 
 // 练习 02：instructions 和消息角色
 //
